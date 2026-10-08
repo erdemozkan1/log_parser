@@ -42,4 +42,4 @@ Bu dosyayı projene ekledikten sonra, GitHub'a göndermek için terminalde sıra
 2. `git commit -m "README dosyası eklendi"`
 3. `git push` 
 
-Böylece GitHub repoya giren herkes projenin ne işe yaradığını, klasör yapısını ve nasıl çalıştırıldığını profesyonel bir şekilde görebilecek. Kodun son kısmına geçmek için hazır olduğunda "tamam" demen yeterli!
+
