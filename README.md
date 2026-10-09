@@ -1,8 +1,8 @@
-# Log Parser - Yazılım Laboratuvarı 1. Hafta
+# Yazılım Laboratuvarı 
 
-Bu proje, yazılım laboratuvarı dersinin ilk haftası için geliştirilmiş bir Python log ayrıştırma (parsing) programıdır. Sistem loglarını (`auth.log`) okuyarak içerisindeki verileri anlamlı bir yapıya dönüştürür ve çeşitli istatistikler çıkarır.
+Bu Repo Yazılım Laboratuvarı için özel olarak oluşturulmuştur.
 
-## 🚀 Özellikler
+## 🚀Repo Özellikler
 Program temel olarak şu işlemleri gerçekleştirmektedir:
 - `auth.log` dosyasını satır satır okur (boş satırları atlar).
 - Her log satırını ayrıştırarak anahtar-değer (key-value) çiftlerinden oluşan bir Python sözlüğüne (`dict`) dönüştürür.
@@ -16,11 +16,15 @@ Projenin sorunsuz çalışması için `auth.log` dosyasının doğru dizinde olm
 ```text
 proje_klasoru/
 │
-├── datasets/
-│   └── auth.log           # Analiz edilecek log dosyası
-│
-├── src/
-│   └── log_parser.py      # Ana Python kodumuz
+├── homework1/
+│   └── datasets/           # Analiz edilecek log dosyası
+│.  └── src/
+│       └── log_parser.py
+│       └── version_controller.py
+├── homework2/
+│   └── events.jsonl      # Ana Python kodumuz
+│.  └── week03_regex_json.py
+│.  └── readme.md
 │
 └── README.md
 ```
@@ -37,9 +41,5 @@ Plaintext
 Status counts: {'SUCCESS': 25, 'FAILED': 12}
 Top failed IP: ('192.168.1.25', 6)
 ```
-Bu dosyayı projene ekledikten sonra, GitHub'a göndermek için terminalde sırayla şu komutları kullanabilirsin:
-1. `git add README.md`
-2. `git commit -m "README dosyası eklendi"`
-3. `git push` 
 
 
